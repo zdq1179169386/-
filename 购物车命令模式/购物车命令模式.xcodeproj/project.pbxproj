@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF30B0422E6DEDA008F5A98 /* ShoppingInvoke.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF30B0322E6DEDA008F5A98 /* ShoppingInvoke.m */; };
+		2EF34F7B22E6DABC00239EFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF34F7A22E6DABC00239EFA /* AppDelegate.m */; };
+		2EF34F7E22E6DABC00239EFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF34F7D22E6DABC00239EFA /* ViewController.m */; };
+		2EF34F8122E6DABC00239EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF34F7F22E6DABC00239EFA /* Main.storyboard */; };
+		2EF34F8322E6DABF00239EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF34F8222E6DABF00239EFA /* Assets.xcassets */; };
+		2EF34F8622E6DABF00239EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF34F8422E6DABF00239EFA /* LaunchScreen.storyboard */; };
+		2EF34F8922E6DABF00239EFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF34F8822E6DABF00239EFA /* main.m */; };
+		2EF34F9322E6DABF00239EFA /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF34F9222E6DABF00239EFA /* _______Tests.m */; };
+		2EF34F9E22E6DABF00239EFA /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF34F9D22E6DABF00239EFA /* _______UITests.m */; };
+		2EF34FAD22E6DADD00239EFA /* ShoppingReceive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF34FAC22E6DADD00239EFA /* ShoppingReceive.m */; };
+		2EF34FB122E6DB9800239EFA /* DynamicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF34FB022E6DB9800239EFA /* DynamicCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EF34F8F22E6DABF00239EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EF34F6E22E6DABC00239EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF34F7522E6DABC00239EFA;
+			remoteInfo = "购物车命令模式";
+		};
+		2EF34F9A22E6DABF00239EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EF34F6E22E6DABC00239EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF34F7522E6DABC00239EFA;
+			remoteInfo = "购物车命令模式";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EF30B0222E6DEDA008F5A98 /* ShoppingInvoke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingInvoke.h; sourceTree = "<group>"; };
+		2EF30B0322E6DEDA008F5A98 /* ShoppingInvoke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingInvoke.m; sourceTree = "<group>"; };
+		2EF34F7622E6DABC00239EFA /* 购物车命令模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "购物车命令模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF34F7922E6DABC00239EFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EF34F7A22E6DABC00239EFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EF34F7C22E6DABC00239EFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EF34F7D22E6DABC00239EFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EF34F8022E6DABC00239EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EF34F8222E6DABF00239EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EF34F8522E6DABF00239EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EF34F8722E6DABF00239EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF34F8822E6DABF00239EFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EF34F8E22E6DABF00239EFA /* 购物车命令模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "购物车命令模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF34F9222E6DABF00239EFA /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		2EF34F9422E6DABF00239EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF34F9922E6DABF00239EFA /* 购物车命令模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "购物车命令模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF34F9D22E6DABF00239EFA /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		2EF34F9F22E6DABF00239EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF34FAB22E6DADD00239EFA /* ShoppingReceive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingReceive.h; sourceTree = "<group>"; };
+		2EF34FAC22E6DADD00239EFA /* ShoppingReceive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingReceive.m; sourceTree = "<group>"; };
+		2EF34FAE22E6DB3700239EFA /* CommonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProtocol.h; sourceTree = "<group>"; };
+		2EF34FAF22E6DB9800239EFA /* DynamicCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicCommand.h; sourceTree = "<group>"; };
+		2EF34FB022E6DB9800239EFA /* DynamicCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EF34F7322E6DABC00239EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF34F8B22E6DABF00239EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF34F9622E6DABF00239EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EF34F6D22E6DABC00239EFA = {
+			isa = PBXGroup;
+			children = (
+				2EF34F7822E6DABC00239EFA /* 购物车命令模式 */,
+				2EF34F9122E6DABF00239EFA /* 购物车命令模式Tests */,
+				2EF34F9C22E6DABF00239EFA /* 购物车命令模式UITests */,
+				2EF34F7722E6DABC00239EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EF34F7722E6DABC00239EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EF34F7622E6DABC00239EFA /* 购物车命令模式.app */,
+				2EF34F8E22E6DABF00239EFA /* 购物车命令模式Tests.xctest */,
+				2EF34F9922E6DABF00239EFA /* 购物车命令模式UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EF34F7822E6DABC00239EFA /* 购物车命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				2EF34FAE22E6DB3700239EFA /* CommonProtocol.h */,
+				2EF34F7922E6DABC00239EFA /* AppDelegate.h */,
+				2EF34F7A22E6DABC00239EFA /* AppDelegate.m */,
+				2EF34F7C22E6DABC00239EFA /* ViewController.h */,
+				2EF34F7D22E6DABC00239EFA /* ViewController.m */,
+				2EF34FAB22E6DADD00239EFA /* ShoppingReceive.h */,
+				2EF34FAC22E6DADD00239EFA /* ShoppingReceive.m */,
+				2EF34FAF22E6DB9800239EFA /* DynamicCommand.h */,
+				2EF34FB022E6DB9800239EFA /* DynamicCommand.m */,
+				2EF30B0222E6DEDA008F5A98 /* ShoppingInvoke.h */,
+				2EF30B0322E6DEDA008F5A98 /* ShoppingInvoke.m */,
+				2EF34F7F22E6DABC00239EFA /* Main.storyboard */,
+				2EF34F8222E6DABF00239EFA /* Assets.xcassets */,
+				2EF34F8422E6DABF00239EFA /* LaunchScreen.storyboard */,
+				2EF34F8722E6DABF00239EFA /* Info.plist */,
+				2EF34F8822E6DABF00239EFA /* main.m */,
+			);
+			path = "购物车命令模式";
+			sourceTree = "<group>";
+		};
+		2EF34F9122E6DABF00239EFA /* 购物车命令模式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF34F9222E6DABF00239EFA /* _______Tests.m */,
+				2EF34F9422E6DABF00239EFA /* Info.plist */,
+			);
+			path = "购物车命令模式Tests";
+			sourceTree = "<group>";
+		};
+		2EF34F9C22E6DABF00239EFA /* 购物车命令模式UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF34F9D22E6DABF00239EFA /* _______UITests.m */,
+				2EF34F9F22E6DABF00239EFA /* Info.plist */,
+			);
+			path = "购物车命令模式UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EF34F7522E6DABC00239EFA /* 购物车命令模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF34FA222E6DABF00239EFA /* Build configuration list for PBXNativeTarget "购物车命令模式" */;
+			buildPhases = (
+				2EF34F7222E6DABC00239EFA /* Sources */,
+				2EF34F7322E6DABC00239EFA /* Frameworks */,
+				2EF34F7422E6DABC00239EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "购物车命令模式";
+			productName = "购物车命令模式";
+			productReference = 2EF34F7622E6DABC00239EFA /* 购物车命令模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EF34F8D22E6DABF00239EFA /* 购物车命令模式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF34FA522E6DABF00239EFA /* Build configuration list for PBXNativeTarget "购物车命令模式Tests" */;
+			buildPhases = (
+				2EF34F8A22E6DABF00239EFA /* Sources */,
+				2EF34F8B22E6DABF00239EFA /* Frameworks */,
+				2EF34F8C22E6DABF00239EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EF34F9022E6DABF00239EFA /* PBXTargetDependency */,
+			);
+			name = "购物车命令模式Tests";
+			productName = "购物车命令模式Tests";
+			productReference = 2EF34F8E22E6DABF00239EFA /* 购物车命令模式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EF34F9822E6DABF00239EFA /* 购物车命令模式UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF34FA822E6DABF00239EFA /* Build configuration list for PBXNativeTarget "购物车命令模式UITests" */;
+			buildPhases = (
+				2EF34F9522E6DABF00239EFA /* Sources */,
+				2EF34F9622E6DABF00239EFA /* Frameworks */,
+				2EF34F9722E6DABF00239EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EF34F9B22E6DABF00239EFA /* PBXTargetDependency */,
+			);
+			name = "购物车命令模式UITests";
+			productName = "购物车命令模式UITests";
+			productReference = 2EF34F9922E6DABF00239EFA /* 购物车命令模式UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EF34F6E22E6DABC00239EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zdq;
+				TargetAttributes = {
+					2EF34F7522E6DABC00239EFA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2EF34F8D22E6DABF00239EFA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2EF34F7522E6DABC00239EFA;
+					};
+					2EF34F9822E6DABF00239EFA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2EF34F7522E6DABC00239EFA;
+					};
+				};
+			};
+			buildConfigurationList = 2EF34F7122E6DABC00239EFA /* Build configuration list for PBXProject "购物车命令模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EF34F6D22E6DABC00239EFA;
+			productRefGroup = 2EF34F7722E6DABC00239EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EF34F7522E6DABC00239EFA /* 购物车命令模式 */,
+				2EF34F8D22E6DABF00239EFA /* 购物车命令模式Tests */,
+				2EF34F9822E6DABF00239EFA /* 购物车命令模式UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EF34F7422E6DABC00239EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF34F8622E6DABF00239EFA /* LaunchScreen.storyboard in Resources */,
+				2EF34F8322E6DABF00239EFA /* Assets.xcassets in Resources */,
+				2EF34F8122E6DABC00239EFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF34F8C22E6DABF00239EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF34F9722E6DABF00239EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EF34F7222E6DABC00239EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF34F7E22E6DABC00239EFA /* ViewController.m in Sources */,
+				2EF34F8922E6DABF00239EFA /* main.m in Sources */,
+				2EF34F7B22E6DABC00239EFA /* AppDelegate.m in Sources */,
+				2EF34FAD22E6DADD00239EFA /* ShoppingReceive.m in Sources */,
+				2EF34FB122E6DB9800239EFA /* DynamicCommand.m in Sources */,
+				2EF30B0422E6DEDA008F5A98 /* ShoppingInvoke.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF34F8A22E6DABF00239EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF34F9322E6DABF00239EFA /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF34F9522E6DABF00239EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF34F9E22E6DABF00239EFA /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EF34F9022E6DABF00239EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EF34F7522E6DABC00239EFA /* 购物车命令模式 */;
+			targetProxy = 2EF34F8F22E6DABF00239EFA /* PBXContainerItemProxy */;
+		};
+		2EF34F9B22E6DABF00239EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EF34F7522E6DABC00239EFA /* 购物车命令模式 */;
+			targetProxy = 2EF34F9A22E6DABF00239EFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EF34F7F22E6DABC00239EFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF34F8022E6DABC00239EFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EF34F8422E6DABF00239EFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF34F8522E6DABF00239EFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EF34FA022E6DABF00239EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EF34FA122E6DABF00239EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EF34FA322E6DABF00239EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "购物车命令模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zdq.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EF34FA422E6DABF00239EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "购物车命令模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zdq.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EF34FA622E6DABF00239EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "购物车命令模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zdq.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/购物车命令模式.app/购物车命令模式";
+			};
+			name = Debug;
+		};
+		2EF34FA722E6DABF00239EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "购物车命令模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zdq.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/购物车命令模式.app/购物车命令模式";
+			};
+			name = Release;
+		};
+		2EF34FA922E6DABF00239EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "购物车命令模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zdq.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "购物车命令模式";
+			};
+			name = Debug;
+		};
+		2EF34FAA22E6DABF00239EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "购物车命令模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zdq.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "购物车命令模式";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EF34F7122E6DABC00239EFA /* Build configuration list for PBXProject "购物车命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF34FA022E6DABF00239EFA /* Debug */,
+				2EF34FA122E6DABF00239EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF34FA222E6DABF00239EFA /* Build configuration list for PBXNativeTarget "购物车命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF34FA322E6DABF00239EFA /* Debug */,
+				2EF34FA422E6DABF00239EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF34FA522E6DABF00239EFA /* Build configuration list for PBXNativeTarget "购物车命令模式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF34FA622E6DABF00239EFA /* Debug */,
+				2EF34FA722E6DABF00239EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF34FA822E6DABF00239EFA /* Build configuration list for PBXNativeTarget "购物车命令模式UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF34FA922E6DABF00239EFA /* Debug */,
+				2EF34FAA22E6DABF00239EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EF34F6E22E6DABC00239EFA /* Project object */;
+}
